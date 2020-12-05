@@ -1,7 +1,17 @@
-.App {
-  text-align: center;
+*{
+  color: white;
 }
-
+.App {
+  background-image: url(https://cms.must.edu.pk:8082/BOT_Theme/resources/images/bg-login.gif);
+  text-align: center;
+  /* border: 2px solid rgb(23, 199, 230); */
+  border-radius: 10px ;
+  padding: 20px 20px;
+  width: 50%;
+  margin: 30px auto;
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +24,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +44,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* 
+.question-box{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  background-color: tomato;
+} */
+
+
+.start{
+  background-image: url(https://cms.must.edu.pk:8082/BOT_Theme/resources/images/bg-login.gif);
+  margin-top: 20px;
+  padding: 10px 10px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.next{
+   background-image: url(https://cms.must.edu.pk:8082/BOT_Theme/resources/images/bg-login.gif);
+ margin: 20px auto;
+ width: 40%;
+ font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+.score{
+  color: rgb(23, 199, 230);
+  font-size: 20px;
 }

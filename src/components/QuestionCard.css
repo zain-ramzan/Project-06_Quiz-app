@@ -1,0 +1,11 @@
+.answers{
+	background-image: url(https://cms.must.edu.pk:8082/BOT_Theme/resources/images/bg-login.gif);
+	margin: 5px auto;
+	width: 60%;
+	font-weight: bold;
+	 border-radius: 10px;
+	 padding: 5px 5px;
+}
+.question{
+	font-style: italic;
+}
