@@ -36,4 +36,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://quiz-app-by-gorsi.surge.sh/ --token ${{secrets.P06}}
+      run: surge ./build http://quiz-app-by-anf.surge.sh/ --token ${{secrets.P06}}
