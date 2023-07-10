@@ -60,7 +60,7 @@ export default function App() {
 
 
       <div className='App'>
-        <h1>Quiz App by Audrick Nkwakam fossi</h1>
+        <h1>Quiz React App by Zain Ramzan</h1>
         {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
           <button className='start' onClick={startQuiz}>START QUIZ</button>
         ) : null}
